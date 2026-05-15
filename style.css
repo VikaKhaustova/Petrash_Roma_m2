@@ -1,0 +1,118 @@
+  body{
+       margin: 0;
+   }
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #4a0202;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin: 0;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    
+    padding:0px ;
+}
+
+.menu-list{
+ list-style: none;   
+padding:0px ;
+ margin: 0px;  
+  display: block;  
+  
+    
+    }
+.menu-list a{
+    color: red;
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius:10px ;
+    background-color: #000000;
+}   
+.information-game{
+    background-image: url('1.jpeg');
+    min-height: 90vh;
+    min-width: 10px;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-shadow: 5px 5px 10px black;
+    justify-content: center;
+    align-items: center;
+    padding:50px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    
+} 
+.fraction h1, .fraction p, .fraction h2{
+   text-align: center; 
+    
+    
+}
+.fraction{
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(to right, #6E1E1E, #FD1D1D, #FFB5B5 );
+    text-shadow: 5px 5px 10px black ;
+    padding: 10px;
+    
+}
+.pers, li{
+    padding: 10px;
+    
+    
+    
+
+  
+       
+       
+       
+       
+       
+       
+   }
+   
+   .boysChlem{
+     color: black;  
+       
+       
+       
+       
+   }
+   
+  .fraction ul{
+     list-style: none;
+      
+      
+  } 
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+ 
+   .dtn{
+    background: red;
+    color:white;
+    padding:10px;
+    border-radius:20px;
+    text-decoration:none;
+    margin: 20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+    
